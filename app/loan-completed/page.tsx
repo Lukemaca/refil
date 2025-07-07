@@ -1,0 +1,16 @@
+"use client"
+import { BackToDashboardButton } from "@/app/components/BackToDashboardButton"
+import LoanCompletedContent from "./LoanCompletedContent"
+
+export default function LoanCompletedPage() {
+  return (
+    <div className="min-h-screen bg-gray-50">
+      <div className="container mx-auto px-4 py-6">
+        <div className="mb-6">
+          <BackToDashboardButton />
+        </div>
+        <LoanCompletedContent />
+      </div>
+    </div>
+  )
+}
